@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <meta name="description" content="株式会社TECHのコーポレートサイト">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+<header class="header">
+   <h1><a href="index.html"><img class="header__img" src="img/logo.png" alt="ロゴ画像"></a></h1>
+    <nav class="header__nav">
+    <ul class="header__list">
+      <li><a class="header__list--link" href="index.html">ホーム</a></li>
+      <li><a class="header__list--link" href="service.html">事業内容</a></li>       
+      <li><a class="header__list--link" href="news.html">ニュース</a></li>
+      <li><a class="header__list--link" href="blog.html">社員ブログ</a></li>
+      <li><a class="header__list--link" href="company.html">会社概要</a></li>
+      <li><a class="header__list--link" href="recruit.html">採用情報</a></li>
+      <li><a class="header__list--link" href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <div class="line" id="line">
+    <span class="line__top"></span>
+    <span class="line__middle"></span>
+    <span class="line__bottom"></span>
+  </div>
+  <nav class="drawer" id="drawer">
+    <ul class="drawer__main">
+      <li class="drawer__main--list"><a href="index.html">ホーム</a></li>
+      <li class="drawer__main--list"><a href="service.html">事業内容</a></li>
+      <li class="drawer__main--list"><a href="news.html">ニュース</a></li>
+      <li class="drawer__main--list"><a href="blog.html">社員ブログ</a></li>
+      <li class="drawer__main--list"><a href="company.html">会社概要</a></li>
+      <li class="drawer__main--list"><a href="recruit.html">採用情報</a></li>
+      <li class="drawer__main--list"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<div class="main__img">
+  <h2 class="main__text">お問い合わせ</h2>
+</div>
+
+<section>
+  <form action="index.html" method="POST">
+  <div class="wrapper">
+  <div class="form">
+    <label class="form__content" for="company">会社名</label>
+    <input class="form__content--sub" type="text" id="company">
+  </div>
+
+  <div class="form">
+    <label class="form__content" for="name">お名前<span class="form__span">*</span></label>
+    <input class="form__content--sub" type="name" id="name">
+  </div>
+
+  <div class="form">
+    <label class="form__content" for="email">メールアドレス<span class="form__span">*</span></label>
+    <input class="form__content--sub" type="email" id="email">
+  </div>
+
+  <div class="form">
+   <label class="form__content" for="info">お問い合わせ</label>
+   <textarea class="form__last" name="infomaction" id="info" rows="5" cols="75" ></textarea>
+  </div>
+  </div>
+
+  <a class="form__btn" href="index.html">お申し込み</a>
+
+ </form>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer__content wrapper">
+    <small class="footer__text"> © 2020 TECH inc.</small>
+    <nav>
+      <ul class="footer__nav--sub">
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="index.html">ホーム</a></li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="service.html">事業内容</a> </li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="news.html">ニュース</a></li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="blog.html">社員ブログ</a></li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="company.html">会社概要</a></li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="recruit.html">採用情報</a></li>
+        <li class="footer__nav--sub--main"><a class="footer__text--sub" href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+  
+  <script src="js/main.js">
+  </script> 
+</body>
+</html>
