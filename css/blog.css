@@ -9,12 +9,8 @@ img {
   height: auto;
 }
 
-body {
-  max-width: 1500px;
-}
-
 .wrapper {
-  max-width: 970px;
+  width: 1100px;
   margin: 0 auto;
 }
 
