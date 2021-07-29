@@ -103,9 +103,9 @@ body {
 .section__content {
   text-align: center;
   display: flex;  
-  margin-bottom: 50px;
+  margin: 0 50px;
   border-top: 1px solid #000;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 
 .section__content:last-of-type {
